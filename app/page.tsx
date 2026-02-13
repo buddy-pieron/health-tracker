@@ -38,7 +38,7 @@ export default function TodayPage() {
   if (!isAuthenticated) {
     return (
       <div className="flex min-h-screen items-center justify-center">
-        <p>Redirecting to sign in...</p>
+        <p className="text-muted-foreground">Loading...</p>
       </div>
     );
   }
